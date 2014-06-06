@@ -10,7 +10,7 @@ inherit autotools autotools-utils eutils git-2
 DESCRIPTION="libev port of shadowsocks http://shadowsocks.org"
 HOMEPAGE="https://github.com/madeye/shadowsocks-libev"
 EGIT_REPO_URI="git://github.com/madeye/shadowsocks-libev.git"
-EGIT_COMMIT="v1.4.5"
+EGIT_COMMIT="v1.4.4"
 
 SRC_URI=""
 
