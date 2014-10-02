@@ -22,9 +22,8 @@ RDEPEND=""
 DEPEND="${RDEPEND}
 	>=dev-haskell/cabal-1.8
 	dev-haskell/cmdargs
-	>=dev-haskell/ghc-7.2
+	>=dev-lang/ghc-7.2
 	dev-haskell/ghc-paths
 	dev-haskell/network
 	dev-haskell/syb
-	>=dev-lang/ghc-7.4.1
 "
