@@ -20,7 +20,6 @@ IUSE=""
 
 RDEPEND=""
 DEPEND="${RDEPEND}
-	>=dev-haskell/cabal-1.18
 	dev-haskell/cmdargs
 	>=dev-lang/ghc-7.2
 	dev-haskell/ghc-paths
