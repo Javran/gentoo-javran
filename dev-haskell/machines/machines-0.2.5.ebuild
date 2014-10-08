@@ -20,11 +20,11 @@ IUSE=""
 
 RDEPEND=">=dev-haskell/comonad-3:=[profile?]
 	>=dev-haskell/free-3.1.1:=[profile?]
-	>=dev-haskell/mtl-2:=[profile?] <dev-haskell/mtl-2.2:=[profile?]
+	>=dev-haskell/mtl-2:=[profile?]
 	>=dev-haskell/pointed-3:=[profile?]
 	>=dev-haskell/profunctors-3:=[profile?]
 	>=dev-haskell/semigroups-0.8.3:=[profile?]
-	>=dev-haskell/transformers-0.3:=[profile?] <dev-haskell/transformers-0.4:=[profile?]
+	>=dev-haskell/transformers-0.3:=[profile?]  
 	>=dev-haskell/void-0.6.1:=[profile?] <dev-haskell/void-0.7:=[profile?]
 	>=dev-lang/ghc-7.4.1:=
 "
