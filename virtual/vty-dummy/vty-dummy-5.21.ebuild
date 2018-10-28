@@ -6,5 +6,5 @@ SLOT="0"
 
 KEYWORDS="*"
 RDEPEND="
-	sys-libs/ncurses:5
+	sys-libs/ncurses:5/5
 "
