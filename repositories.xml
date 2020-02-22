@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[gentoo-javran]]></name>
+    <description lang="en"><![CDATA[Javran's Gentoo Overlay]]></description>
+    <homepage>http://github.com/</homepage>
+    <owner type="person">
+      <name><![CDATA[Javran Cheng]]></name>
+    </owner>
+    <source type="git">git://github.com/Javran/gentoo-javran.git</source>
+    <feed>http://github.com/Javran/gentoo-javran/commits/master.atom</feed>
+  </repo>
+</repositories>
