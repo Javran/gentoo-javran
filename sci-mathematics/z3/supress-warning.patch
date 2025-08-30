@@ -1,0 +1,23 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 640dda928..7403e5363 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,5 +1,5 @@
+ # Enforce some CMake policies
+-cmake_minimum_required(VERSION 3.4)
++cmake_minimum_required(VERSION 3.5)
+ 
+ set(CMAKE_USER_MAKE_RULES_OVERRIDE_CXX "${CMAKE_CURRENT_SOURCE_DIR}/cmake/cxx_compiler_flags_overrides.cmake")
+ project(Z3 VERSION 4.8.17.0 LANGUAGES CXX)
+@@ -111,6 +111,11 @@ include(CMakeDependentOption)
+ # Compiler flags for Z3 components.
+ # Subsequent commands will append to this
+ ################################################################################
++
++
++# Suppress template errors
++set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-template-body")
++
+ set(Z3_COMPONENT_CXX_DEFINES "")
+ set(Z3_COMPONENT_CXX_FLAGS "")
+ set(Z3_COMPONENT_EXTRA_INCLUDE_DIRS "")

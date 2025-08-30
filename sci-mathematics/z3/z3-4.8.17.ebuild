@@ -32,6 +32,10 @@ BDEPEND="
 
 CMAKE_BUILD_TYPE=RelWithDebInfo
 
+PATCHES=(
+	"${FILESDIR}/supress-warning.patch"
+)
+
 src_prepare() {
 	cmake_src_prepare
 	java-pkg-opt-2_src_prepare
